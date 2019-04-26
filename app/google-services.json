@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "271336435033",
+    "firebase_url": "https://hotelsevices.firebaseio.com",
+    "project_id": "hotelsevices",
+    "storage_bucket": "hotelsevices.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271336435033:android:d6203d6ba7dfa076",
+        "android_client_info": {
+          "package_name": "com.Manzi.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271336435033-t42r154m4mpaofotkb5ea1930qq27hdt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.Manzi.myapplication",
+            "certificate_hash": "560c4f6b4b207f324897391e88e92a5b84d11503"
+          }
+        },
+        {
+          "client_id": "271336435033-49ss1gfd0l9mjntu6ol2r83jjhb4rjal.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChabLsiw-6vePolfoq_Z8W3YDZUN7FdXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271336435033-49ss1gfd0l9mjntu6ol2r83jjhb4rjal.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

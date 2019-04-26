@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.Manzi.myapplication.ChakulaActivity">
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="@string/action_logout"
+
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_menu"
+        android:orderInCategory="100"
+        android:title="@string/menu"
+        android:icon="@drawable/ic_restaurant_menu"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_order"
+        android:orderInCategory="100"
+        android:title="@string/action_order"
+        app:showAsAction="always" />
+</menu>

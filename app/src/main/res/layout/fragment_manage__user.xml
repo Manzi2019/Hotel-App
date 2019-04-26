@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin.ManageUser"
+    android:background="#067491">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <EditText
+            android:id="@+id/edUsername"
+            android:layout_width="353dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/edit_layout"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColorHint="#A07989"
+            android:hint="@string/Name"/>
+
+        <EditText
+            android:id="@+id/edIdnumber"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="57dp"
+            android:background="@drawable/edit_layout"
+            android:ems="10"
+            android:inputType="number"
+            android:textColorHint="#A07989"
+            android:layout_width="353dp"
+            android:layout_height="35dp"
+            android:hint="@string/Id"/>
+
+        <EditText
+            android:id="@+id/pasUser"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="106dp"
+            android:background="@drawable/edit_layout"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColorHint="#A07989"
+            android:layout_width="353dp"
+            android:layout_height="35dp"
+            android:hint="@string/Password"/>
+
+        <EditText
+            android:background="@drawable/edit_layout"
+            android:id="@+id/edTelnumber"
+            android:layout_width="353dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="163dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColorHint="#A07989"
+            android:hint="@string/telnumber"/>
+        <EditText
+            android:background="@drawable/edit_layout"
+            android:layout_width="353dp"
+            android:layout_height="35dp"
+            android:textColorHint="#A07989"
+            android:id="@+id/edSalary"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="31dp"
+            android:layout_marginLeft="31dp"
+            android:layout_marginTop="208dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="@string/income"/>
+
+        <Button
+            android:id="@+id/btnADD"
+            android:layout_width="118dp"
+            android:layout_height="37dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="272dp"
+            android:background="@drawable/round_button"
+            android:text="ADD" />
+
+        <Button
+            android:background="@drawable/round_button"
+            android:layout_width="118dp"
+            android:layout_height="37dp"
+            android:id="@+id/btnDelete"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="270dp"
+            android:layout_marginEnd="27dp"
+            android:layout_marginRight="27dp"
+            android:text="Delete" />
+
+        <ListView
+            android:background="#fff"
+            android:id="@+id/databaseuserlistview"
+            style="@style/Widget.AppCompat.ListView.Menu"
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="338dp"
+            android:layout_marginRight="0dp"
+            android:scrollbars="vertical" />
+
+    </RelativeLayout>
+
+</FrameLayout>
